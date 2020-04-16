@@ -1,5 +1,6 @@
 from typing import List
 from ..errors import addWarning, addError
+from dataclasses import dataclass
 
 @dataclass
 class Argument:
